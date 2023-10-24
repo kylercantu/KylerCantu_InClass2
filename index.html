@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Technology Learning</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Link to JS -->
+    <script src="./js/app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="page-title">
+        <h1>
+          Welcome to the interactive ABCs of CSS Technology learning Website
+        </h1>
+      </div>
+    </header>
+
+    <!-- Container that includes the instructions on how to use the web app -->
+    <div class="app-instructions">
+      <h2>
+        Click on the buttons below to reveal and learn the CSS technology
+        features of the corresponding letters
+      </h2>
+    </div>
+
+    <main>
+      <section>
+        <!-- Container for the whole body -->
+        <div class="image-button-container">
+          <!-- Layout for the whole container A -->
+          <div class="single-container-layout" id="container-a">
+            <!-- Container containing image A + hide result button -->
+            <div class="image-hide-container" id="image-hide-a">
+              <img src="./images/css-letter-a.png" alt="Image A" />
+              <button
+                id="hide-a"
+                class="hide-button"
+                type="button"
+                value="hide"
+              >
+                Hide Result
+              </button>
+            </div>
+            <button id="button-a" class="letter-button" type="button" value="A">
+              A
+            </button>
+          </div>
+
+          <!-- Layout for the whole container B -->
+          <div class="single-container-layout" id="container-b">
+            <!-- Container containing image B + hide result button -->
+            <div class="image-hide-container" id="image-hide-b">
+              <img src="./images/css-letter-b.png" alt="Image B" />
+              <button
+                id="hide-b"
+                class="hide-button"
+                type="button"
+                value="hide"
+              >
+                Hide Result
+              </button>
+            </div>
+            <button id="button-b" class="letter-button" type="button" value="B">
+              B
+            </button>
+          </div>
+
+          <!-- Layout for the container C -->
+          <div class="single-container-layout" id="container-c">
+            <!-- Container containing image B + hide result button -->
+            <div class="image-hide-container" id="image-hide-c">
+              <img src="./images/css-letter-c.png" alt="Image C" />
+              <button
+                id="hide-c"
+                class="hide-button"
+                type="button"
+                value="hide"
+              >
+                Hide Result
+              </button>
+            </div>
+            <button id="button-c" class="letter-button" type="button" value="C">
+              C
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

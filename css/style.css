@@ -1,0 +1,73 @@
+/*Reset all browser styling*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-title {
+  border-style: solid;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+.app-instructions {
+  border-style: solid;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+.image-button-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.single-container-layout {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  row-gap: 20px;
+}
+
+#container-a {
+  background-color: blue;
+}
+
+#container-b {
+  background-color: red;
+}
+
+#container-c {
+  background-color: green;
+}
+
+.letter-button {
+  width: 150px;
+  height: 50px;
+  justify-content: center;
+}
+
+.image-hide-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.hide-button {
+  padding: 5px;
+}
+
+#image-hide-a {
+  display: none;
+}
+
+#image-hide-b {
+  display: none;
+}
+
+#image-hide-c {
+  display: none;
+}
